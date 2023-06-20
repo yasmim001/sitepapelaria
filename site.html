@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link  rel="stylesheet" type="text/css" href="estilo.css">     
+    <title> Papelaria </title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="img/Logo para loja infantil colorida (2).png" width="70px" height="70px"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #e1c2ff;"> Login
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"> Suas infomações </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"> Email </label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <label for="inputPassword5" class="form-label">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+<div id="passwordHelpBlock" class="form-text">
+  Sua senha deve ter de 8 a 20 caracteres
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"  style="background-color: #e1c2ff;"> Enter </button>
+        <button type="button" class="btn btn-primary"  style="background-color: #e1c2ff;"> Salvar </button>
+      </div>
+    </div>
+  </div>
+</div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                 Sobre </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Carrinho </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Produtos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"> Sobre  </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="pesquisar">
+            <input class="form-control me-2" type="pesquisar" placeholder="pesquisar" aria-label="pesquisar">
+            <button class="btn btn-outline-success" type="submit"> Enter </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <nav>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> As melhores marcas</h5>
+              <p> Qualidade nos produtos </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> Para todos os gostos </h5>
+              <p> Cores e diversidade de produtos </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> Escolha o seu! </h5>
+              <p> Todos os tipos de materiais escolares </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p> </p>
+      <div class="container text-center">
+        <div class="row row-cols-4">
+          <div class="col"> <img src="img/lapis.jpg" width="300px" height="300px"> <h4 style="background-color: #e1c2ff;"> Lápis </h4></div>
+          <div class="col"> <img src="img/m2.jpg" width="300px" height="300px">  <h4 style="background-color: #e1c2ff;"> Mochilas </h4></div>
+          <div class="col"> <img src="img/m3.jpg" width="300px" height="300px">  <h4 style="background-color: #e1c2ff;"> Canetas </h4></div>
+          <div class="col"> <img src="img/m4.png" width="300px" height="300px">  <h4 style="background-color: #e1c2ff;"> Variados </h4> </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <hr style="color:#000000;" size="50px" > 
+      <p></p>
+      <p></p>
+       <div class="container text-center">
+        <div class="row row-cols-4">
+          <div class="col">  <img src="img/prom.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Promoção </h5>
+              <p class="card-text"> Canetas e Cadernos com 50% de desconto.</p>
+              <a href="#" class="btn btn-primary" style="background-color: #e1c2ff;"> Adiquirir </a>
+            </div> </div>
+          <div class="col">  <img src="img/mochila.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Promoção Mochilas </h5>
+              <p class="card-text"> Mochilas 50% de desconto.</p>
+              <a href="#" class="btn btn-primary" style="background-color: #e1c2ff;"> Adiquirir </a>
+            </div> </div>
+          <div class="col">  <img src="img/volta.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Promoção volta ás aulas </h5>
+              <p class="card-text"> Todo material com 20% de desconto. </p>
+              <a href="#" class="btn btn-primary" style="background-color: #e1c2ff;"> Adiquirir </a>
+            </div> </div>
+        </div>
+      </div>
+          <p> </p>
+
+        
+      <footer class="bg-dark text-light">
+        <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-4">
+            <img src="img/Logo para loja infantil colorida (2).png" width="200px" height="200px">
+            <ul class="nav flex-column"> 
+              <li class="nav-link"><a href="#">Retornar à Loja</a></li>
+              <li class="nav-link"><a href="#">Sobre</a></li>
+              <li class="nav-link"><a href="#">Contato</a></li>
+              <li class="nav-link"><a href="#">Suporte</a></li>
+           
+            </ul>
+
+          </div>
+          
+          <div class="col-8" style="color: #000000;">
+            <p>
+               Tudo que você precisa para compor seu material escolar!
+               As melhores marcas, produtos de alta qualidade
+               <br> Envio rápido e as melhores promoções 
+            </p>
+            <ul class="nav"> 
+              <li class="nav-link" ><i class="fab fa-facebook fa-3x "> <img src="img/instagram.png" width="50px" height="50px"> </i></li>
+              <li class="nav-link"><i class="fab fa-instagram fa-3x"> <img src="img/telefone.png" width="50px" height="50px"> </i></li>
+              <li class="nav-link"><i class="fab fa-twitter fa-3x"> <img src="img/twitter.png" width="50px" height="50px"></i></li>
+              <li class="nav-link"><i class="fab fa-whatsapp fa-3x"><img src="img/facebook.png" width="50px" height="50px"></i></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="text-center" style="background-color: #333; padding: 20px;" >
+          &copy 2018 Copyright: <a href="#"> Lojas Virtuais </a>
+        </div>
+      </footer>
+    <script src="bootstrap/js/bootstrap.min.js"> </script>
+    </body>
+    </html>
